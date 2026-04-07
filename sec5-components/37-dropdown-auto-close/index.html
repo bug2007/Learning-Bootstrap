@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Hello, Moumi!!</h1>
+    <h2>when u click on a menu item inside a dropdown or click outside of it, the dropdown closes - can be annoying</h2>
+
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="d-flex">
+                    <div class="btn-group">
+                        <!-- inside - only clicking inside will close the dropdown. outside - only clicking outside will close the dropdown. false - clicking anywhere WON'T close the dropdown unless u click on the button itself-->
+                        <button type="button"
+                            class="btn btn-secondary dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            id="dropdown-menu-offset"
+                            data-bs-auto-close="inside">
+                            Default Dropdown
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><button type="button" class="dropdown-item">One</button></li>
+                            <li><button type="button" class="dropdown-item">Two</button></li>
+                            <li><button type="button" class="dropdown-item">Three</button></li>
+                            <li><button type="button" class="dropdown-item">Four</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

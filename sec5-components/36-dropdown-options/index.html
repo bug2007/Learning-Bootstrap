@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Hello, Moumi!!</h1>
+    <h2>we can use the data-bs-offset to change the location of the dropdown</h2>
+
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="d-flex">
+                    <div class="btn-group me-2">
+                        <button type="button"
+                            class="btn btn-secondary dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            data-bs-offset="0, 20"
+                            id="dropdown-menu-offset">
+                            Default Dropdown
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><button type="button" class="dropdown-item">One</button></li>
+                            <li><button type="button" class="dropdown-item">Two</button></li>
+                            <li><button type="button" class="dropdown-item">Three</button></li>
+                            <li><button type="button" class="dropdown-item">Four</button></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary">Split Button Offset</button>
+                        <button type="button"
+                            class="btn btn-primary dropdown-toggle dropdown-toggle-split"
+                            id="dropdown-menu-offset-2"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            data-bs-offset="-95, 20">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><button type="button" class="dropdown-item">One</button></li>
+                            <li><button type="button" class="dropdown-item">Two</button></li>
+                            <li><button type="button" class="dropdown-item">Three</button></li>
+                            <li><button type="button" class="dropdown-item">Four</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

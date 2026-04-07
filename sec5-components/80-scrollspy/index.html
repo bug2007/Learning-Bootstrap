@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Hello, Moumi!!</h1>
+    <h2>lets try this- if we scroll the content in the card body, the navbar in the card-header will be automatically highlighted on which section is it aligned on.</h2>
+
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        <nav class="nav nav-pills card-header-pills" id="nabar-example">
+                            <ul class="nav nav-pills">
+                                <li class="nav-item">
+                                    <a href="#headingOne" class="nav-link">One</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#headingTwo" class="nav-link">Two</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#headingThree" class="nav-link">Three</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#headingFour" class="nav-link">Four</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="card-body overflow-scroll" style="height: 250px;">
+                        <div class="scrollspy-example"
+                            tabindex="0"
+                            data-bs-spy="scroll"
+                            data-bs-target="navbar-example"
+                            data-bs-root-margin="0px 0px -40px"
+                            data-bs-smooth-scroll="true">
+
+                            <h4 id="headingOne">Heading One</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, asperiores!</p>
+                            <p>Dolore ab suscipit perferendis amet odio ut laborum consequuntur consequatur?</p>
+                            <p>Est ipsum impedit omnis voluptatibus sunt. Rerum deserunt quisquam quod?</p>
+                            <p>Ex quibusdam illo consequatur atque ad saepe ea sit nostrum.</p>
+
+                            <h4 id="headingTwo">Heading Two</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, asperiores!</p>
+                            <p>Dolore ab suscipit perferendis amet odio ut laborum consequuntur consequatur?</p>
+                            <p>Est ipsum impedit omnis voluptatibus sunt. Rerum deserunt quisquam quod?</p>
+                            <p>Ex quibusdam illo consequatur atque ad saepe ea sit nostrum.</p>
+
+                            <h4 id="headingThree">Heading Three</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, asperiores!</p>
+                            <p>Dolore ab suscipit perferendis amet odio ut laborum consequuntur consequatur?</p>
+                            <p>Est ipsum impedit omnis voluptatibus sunt. Rerum deserunt quisquam quod?</p>
+                            <p>Ex quibusdam illo consequatur atque ad saepe ea sit nostrum.</p>
+
+                            <h4 id="headingFour">Heading Four</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, asperiores!</p>
+                            <p>Dolore ab suscipit perferendis amet odio ut laborum consequuntur consequatur?</p>
+                            <p>Est ipsum impedit omnis voluptatibus sunt. Rerum deserunt quisquam quod?</p>
+                            <p>Ex quibusdam illo consequatur atque ad saepe ea sit nostrum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="list-group" id="list-example">
+                            <a href="#headingOne" class="list-group-item list-group-item-action">One</a>
+                            <a href="#headingTwo" class="list-group-item list-group-item-action">Two</a>
+                            <a href="#headingThree" class="list-group-item list-group-item-action">Three</a>
+                            <a href="#headingFour" class="list-group-item list-group-item-action">Four</a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 overflow-scroll scrollspy-example"
+                        style="height: 250px;"
+                        data-bs-spy="scroll"
+                        data-bs-target="list-example"
+                        data-bs-smooth-scroll="true"
+                        tabindex="0">
+                        
+                        <h4 id="headingOne">Heading One</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, asperiores!</p>
+                        <p>Dolore ab suscipit perferendis amet odio ut laborum consequuntur consequatur?</p>
+                        <p>Est ipsum impedit omnis voluptatibus sunt. Rerum deserunt quisquam quod?</p>
+                        <p>Ex quibusdam illo consequatur atque ad saepe ea sit nostrum.</p>
+
+                        <h4 id="headingTwo">Heading Two</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, asperiores!</p>
+                        <p>Dolore ab suscipit perferendis amet odio ut laborum consequuntur consequatur?</p>
+                        <p>Est ipsum impedit omnis voluptatibus sunt. Rerum deserunt quisquam quod?</p>
+                        <p>Ex quibusdam illo consequatur atque ad saepe ea sit nostrum.</p>
+
+                        <h4 id="headingThree">Heading Three</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, asperiores!</p>
+                        <p>Dolore ab suscipit perferendis amet odio ut laborum consequuntur consequatur?</p>
+                        <p>Est ipsum impedit omnis voluptatibus sunt. Rerum deserunt quisquam quod?</p>
+                        <p>Ex quibusdam illo consequatur atque ad saepe ea sit nostrum.</p>
+
+                        <h4 id="headingFour">Heading Four</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, asperiores!</p>
+                        <p>Dolore ab suscipit perferendis amet odio ut laborum consequuntur consequatur?</p>
+                        <p>Est ipsum impedit omnis voluptatibus sunt. Rerum deserunt quisquam quod?</p>
+                        <p>Ex quibusdam illo consequatur atque ad saepe ea sit nostrum.</p>
+                    </div>
+                </div>       
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
