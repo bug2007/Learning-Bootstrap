@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Hello, Moumi!!</h1>
+    <h2>Interaction classes - with the help of these, u can choose what the user selects and what the user cant select with their mouse.</h2>
+
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <!-- user will be able to select everything with just one click -->
+                <p class="user-select-all">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, aliquam. Sapiente voluptate, delectus libero perspiciatis exercitationem a aperiam repudiandae quod dolores animi, reiciendis quasi labore.</p>
+                </p>
+                <!-- user has to manually select -->
+                <p class="user-select-auto">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, aliquam. Sapiente voluptate, delectus libero perspiciatis exercitationem a aperiam repudiandae quod dolores animi, reiciendis quasi labore.</p>
+                </p>
+                <!-- user wont be able to select -->
+                <p class="user-select-none">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, aliquam. Sapiente voluptate, delectus libero perspiciatis exercitationem a aperiam repudiandae quod dolores animi, reiciendis quasi labore.</p>
+                </p>
+
+                <!-- pointer events - u can choose what the user can click and cant click -->
+                <p>
+                    <a href="#" class="pe-none" tabindex="-1" aria-disabled="true">This link</a> cant be clicked
+                </p>
+
+                <!-- can be clicked which is the default -->
+                <p>
+                    <a href="#" class="pe-auto">This link</a> can be clicked
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
