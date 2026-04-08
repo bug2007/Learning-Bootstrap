@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Hello, Moumi!!</h1>
+
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+           <div class="col-md-8">
+               <div class="d-flex flex-row mb-3 bg-info">
+                    <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+               </div>
+               <div class="d-flex flex-row-reverse mb-3 bg-info">
+                    <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+               </div>
+               <div class="d-flex flex-column mb-3 bg-info">
+                    <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+               </div>
+               <div class="d-flex flex-column-reverse mb-3 bg-info">
+                    <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+               </div>
+
+               <!-- there's justify-content-start, end, center, between, around, evenly, justify-content-md-start -->
+               <!-- there's align-items-start, end, center, stretch, baseline, align-item-md-start -->
+               <div class="d-flex flex-md-column mb-3 bg-info">
+                    <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+               </div>
+
+               <!-- align-self -->
+               <div class="d-flex  mb-3 bg-info align-items-stretch" style="height: 200px;">
+                    <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1 align-self-baseline">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1 align-self-start">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1 align-self-center">Flex item 3</div>
+                    <div class="p-2 text-bg-primary m-1 align-self-stretch">Flex item 3</div>
+                    <div class="p-2 text-bg-primary m-1 align-self-end">Flex item 3</div>
+               </div>
+
+               <!-- Flex fill - makes the width adapt to the content inside the flexbox container -->
+               <div class="d-flex mb-3 bg-info">
+                    <div class="p-2 text-bg-primary m-1">Flex item 1 with long content</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+               </div>
+
+               <!-- flex-fill -->
+               <!-- can use flex-md-fill, flex-sm-fill etc. -->
+               <div class="d-flex mb-3 bg-info">
+                    <div class="p-2 text-bg-primary m-1 flex-fill">Flex item 1 with long content</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+               </div>
+
+               <!-- flex-grow and flex-shrink-->
+               <div class="d-flex mb-3 bg-info">
+                    <div class="p-2 text-bg-primary m-1 flex-grow">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+               </div>
+               <div class="d-flex mb-3 bg-info">
+                    <div class="p-2 text-bg-primary m-1 flex-grow-1">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+               </div>
+
+               <!-- can use flex-md-grow-1, flex-md-shrink-1 etc. -->
+               <div class="d-flex mb-3 bg-info">
+                    <div class="p-2 text-bg-primary m-1 w-100">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1 flex-shrink-1">Flex item 2</div>
+               </div>
+
+               <!-- flex auto margins -->
+               <div class="d-flex mb-3 bg-info">
+                    <div class="p-2 text-bg-primary m-1 me-auto">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+               </div>
+               <div class="d-flex mb-3 bg-info">
+                    <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1 ms-auto">Flex item 3</div>
+               </div>
+               <div class="d-flex mb-3 bg-info align-items-start flex-column" style="height: 200px;">
+                    <div class="p-2 text-bg-primary m-1 mb-auto">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+               </div>
+
+               <!-- flex wrap. there's no flex-nowrap which is the default -->
+               <div class="d-flex mb-3 bg-info align-items-start flex-wrap" style="height: 200px;">
+                    <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 4</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 5</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 6</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 7</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 8</div>
+               </div>
+               <div class="d-flex mb-3 bg-info align-items-start flex-wrap-reverse" style="height: 200px;">
+                    <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 4</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 5</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 6</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 7</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 8</div>
+               </div>
+
+               <!-- flex order. order can be from 0-5. 0 is the primary -->
+               <div class="d-flex mb-3 bg-info align-items-start">
+                    <div class="p-2 text-bg-primary m-1 order-md-5">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1 order-md-4">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1 order-md-3">Flex item 3</div>
+                    <div class="p-2 text-bg-primary m-1 order-md-2">Flex item 4</div>
+                    <div class="p-2 text-bg-primary m-1 order-md-1">Flex item 5</div>
+                    <div class="p-2 text-bg-primary m-1 order-md-0">Flex item 6</div>
+               </div>
+               <div class="d-flex mb-3 bg-info align-items-start">
+                    <div class="p-2 text-bg-primary m-1 order-md-5">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1 order-md-4">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1 order-md-3">Flex item 3</div>
+                    <div class="p-2 text-bg-primary m-1 order-md-2">Flex item 4</div>
+                    <div class="p-2 text-bg-primary m-1 order-md-1">Flex item 5</div>
+                    <div class="p-2 text-bg-primary m-1 order-md-0">Flex item 6</div>
+                    <div class="p-2 text-bg-primary m-1 order-first">Flex First</div>
+                    <div class="p-2 text-bg-primary m-1 order-last">Flex Last</div>
+               </div>
+
+
+               <!-- align-content. doesnt work on a single row flex items -->
+               <div class="d-flex flex-wrap align-content-start mb-3 bg-info" style="height: 200px;">
+                    <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 4</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 5</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 6</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 7</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 8</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 9</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 10</div>
+               </div>
+               <div class="d-flex flex-wrap align-items-start mb-3 bg-info" style="height: 200px;">
+                    <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 4</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 5</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 6</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 7</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 8</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 9</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 10</div>
+               </div>
+               <div class="d-flex flex-wrap align-content-end mb-3 bg-info" style="height: 200px;">
+                    <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 4</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 5</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 6</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 7</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 8</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 9</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 10</div>
+               </div>
+
+               <!-- there's align-content-center, between, around, stretch-->
+               <div class="d-flex flex-wrap align-items-end mb-3 bg-info" style="height: 200px;">
+                    <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 2</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 3</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 4</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 5</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 6</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 7</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 8</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 9</div>
+                    <div class="p-2 text-bg-primary m-1">Flex item 10</div>
+               </div>
+
+
+               <!-- flex media object -->
+               <div class="col-md-8">
+                   <div class="d-flex mb-3">
+                        <div class="flex-shrink-0">
+                            <img src="https://images.pexels.com/photos/33046849/pexels-photo-33046849.jpeg" alt="" class="rounded" style="width: 250px;">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h5>Some cool heading</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia eveniet esse modi, et deleniti omnis est, odio itaque ipsa unde repudiandae earum molestias enim.</p>
+                        </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
