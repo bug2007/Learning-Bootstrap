@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        img {
+            width: 200px;
+            height: 200px;
+        }
+
+        video {
+            max-width: 500px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Hello, Moumi!!</h1>
+    <h2>Interaction classes - with the help of these, u can choose what the user selects and what the user cant select with their mouse.</h2>
+
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <!-- can scroll -->
+                <div class="float-start border m-2 alert text-bg-light overflow-auto" style="width: 200px; height: 200px;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate suscipit odit recusandae dolorem autem temporibus placeat, facere quibusdam, id impedit eius, explicabo culpa esse possimus?</p>
+                </div>
+
+                <!-- extended content is hidden -->
+                <div class="float-start border m-2 alert text-bg-light overflow-hidden" style="width: 200px; height: 200px;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate suscipit odit recusandae dolorem autem temporibus placeat, facere quibusdam, id impedit eius, explicabo culpa esse possimus?</p>
+                </div>
+
+                <!-- default -->
+                <div class="float-start border m-2 alert text-bg-light overflow-visible" style="width: 200px; height: 200px;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate suscipit odit recusandae dolorem autem temporibus placeat, facere quibusdam, id impedit eius, explicabo culpa esse possimus?</p>
+                </div>
+
+                <!-- can get the scroll on both x-axis and y-axis -->
+                <div class="float-start border m-2 alert text-bg-light overflow-scroll" style="width: 200px; height: 200px;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate suscipit odit recusandae dolorem autem temporibus placeat, facere quibusdam, id impedit eius, explicabo culpa esse possimus?</p>
+                </div>
+           
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
