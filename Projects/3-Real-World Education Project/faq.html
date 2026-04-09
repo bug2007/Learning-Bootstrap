@@ -70,29 +70,52 @@
                     </button>
                 </div>
             </form>
+           
         </div>
     </div>
 </nav>
 
-<!-- About banner -->
-<header class="about-header py-5 border-bottom">
+<!-- FAQ header -->
+<header class="faq-header py-5 border-bottom">
     <div class="container">
-        <div class="row align-items-center gx-md-5">
-            <div class="col-md-6">
-                <div class="home-header text-holder pe-md-5">
-                    <h1 class="fs-3 fw-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum quo ducimus libero iusto dolorem labore.</h1>
-                    <h2 class="fs-5 fw-light text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur maxime, laboriosam autem alias repellendus iste praesentium nostrum cupiditate iure vitae.</h2>
-                    <a href="#" class="btn btn-sm btn-success mt-2 mb-3 d-inline-flex align-items-center justify-content-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-check-fill me-2" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
-                        <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-                        </svg>
-                        Sign-up to Get Started
-                    </a>
+        <div class="row gx-md-5 align-items-center">
+            <div class="col-md-6 order-md-0 order-2">
+                <div class="breadcrumb-holder">
+                    <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '&rang;'">
+                        <ol class="breadcrumb text-bg-light border d-inline-flex align-items-center px-3 py-1 rounded-pill">
+                            <li class="breadcrumb-item">
+                                <a href="#" class="small text-decoration-none">Home</a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="#" class="small text-decoration-none">Courses</a>
+                            </li>
+                            <li class="breadcrumb-item active small" aria-current="page">
+                                Single Course
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="single-course-content-holder pe-md-5 mb-3">
+                    <h1 class="fw-normal fs-3">Lorem ipsum dolor sit amet consectetur.</h1>
+                    <h2 class="fs-6 smal fw-light text-secondary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus accusamus neque, excepturi quod dignissimos praesentium recusandae dolores, est delectus dicta corporis repellendus inventore! Eum sunt similique, qui quod officia hic.
+                    </h2>
+                    <div class="col-md-10 my-3 faq-search-form">
+                        <form role="search" class="d-flex">
+                            <div class="input-group">
+                                <input type="search" class="form-control form-control-sm" placeholder="Search for..">
+                                <button type="button" class="btn btn-sm btn-success">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="home-header-image-holder">
+                <div class="single-course-image mb-md-0 mb-3">
                     <img src="images/main-header.jpg" alt="" class="rounded img-fluid shadow-sm">
                 </div>
             </div>
@@ -100,48 +123,81 @@
     </div>
 </header>
 
-<!-- About content -->
-<section class="about-content py-4 mb-3">
+<!-- FAQ list -->
+<section class="faq-list py-5">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-6">
-                <div class="about-content-header text-center pb-5">
-                    <h3 class="fs-4 fw-normal">Welcome to Prime Inspire</h3>
-                    <p class="text-secondary small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita optio modi laborum odit iure odio, numquam ducimus corporis molestiae error ea provident fuga ad voluptatum consequatur quod fugiat dolor vel?</p>
-                    <a href="#" class="btn btn-sm btn-success d-inline-flex align-items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text me-2" viewBox="0 0 16 16">
-                        <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5"/>
-                        <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/>
-                        </svg>
-                        Read about our journey
-                    </a>
-                </div>
+        <div class="row">
+            <div class="col-md-8">
+                <details class="card text-bg-light small mb-3">
+                    <summary class="card-header">Lorem ipsum dolor sit amet consectetur.</summary>
+                    <div class="card-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloribus ad possimus minima nisi totam, quas cupiditate veritatis voluptatem eius consequuntur! Maiores dolores odit atque deleniti iure, voluptas aliquid ipsum.</p>
+                    </div>
+                </details>
+                <details class="card text-bg-light small mb-3">
+                    <summary class="card-header">Lorem ipsum dolor sit amet consectetur.</summary>
+                    <div class="card-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloribus ad possimus minima nisi totam, quas cupiditate veritatis voluptatem eius consequuntur! Maiores dolores odit atque deleniti iure, voluptas aliquid ipsum.</p>
+                    </div>
+                </details>
+                <details class="card text-bg-light small mb-3">
+                    <summary class="card-header">Lorem ipsum dolor sit amet consectetur.</summary>
+                    <div class="card-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloribus ad possimus minima nisi totam, quas cupiditate veritatis voluptatem eius consequuntur! Maiores dolores odit atque deleniti iure, voluptas aliquid ipsum.</p>
+                    </div>
+                </details>
+                <details class="card text-bg-light small mb-3">
+                    <summary class="card-header">Lorem ipsum dolor sit amet consectetur.</summary>
+                    <div class="card-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloribus ad possimus minima nisi totam, quas cupiditate veritatis voluptatem eius consequuntur! Maiores dolores odit atque deleniti iure, voluptas aliquid ipsum.</p>
+                    </div>
+                </details>
+                <details class="card text-bg-light small mb-3">
+                    <summary class="card-header">Lorem ipsum dolor sit amet consectetur.</summary>
+                    <div class="card-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloribus ad possimus minima nisi totam, quas cupiditate veritatis voluptatem eius consequuntur! Maiores dolores odit atque deleniti iure, voluptas aliquid ipsum.</p>
+                    </div>
+                </details>
             </div>
-        </div>
-        <div class="row gx-5 align-items-center">
             <div class="col-md-4">
-                <div class="about-content-image">
-                    <img src="images/main-header.jpg" alt="" class="rounded img-fluid mb-md-0 mb-3">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="about-content-holder">
-                    <p class="text-secondary small">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi saepe eaque ut? Adipisci quam libero cum vero repellat illum ab ratione incidunt. Rem hic dicta eveniet earum ducimus commodi accusantium.
-                    </p>
-                    <p class="text-secondary small">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat ullam ipsum quo veritatis adipisci quidem, excepturi non pariatur ab iure doloremque alias accusamus modi rerum officiis assumenda. Minus omnis iure nulla tempore debitis atque. Tempora nulla voluptatibus aliquid reiciendis in.
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="about-content-holder">
-                    <p class="text-secondary small">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi saepe eaque ut? Adipisci quam libero cum vero repellat illum ab ratione incidunt. Rem hic dicta eveniet earum ducimus commodi accusantium.
-                    </p>
-                    <p class="text-secondary small">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat ullam ipsum quo veritatis adipisci quidem, excepturi non pariatur ab iure doloremque alias accusamus modi rerum officiis assumenda. Minus omnis iure nulla tempore debitis atque. Tempora nulla voluptatibus aliquid reiciendis in.
-                    </p>
+                <div class="card mb-3">
+                    <div class="card-header text-bg-primary">Post your Questions</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-2">
+                                        <input type="text" class="form-control form-control-sm" placeholder="Name" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-2">
+                                        <input type="email" class="form-control form-control-sm" placeholder="Email" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="mb-2">
+                                        <input type="text" class="form-control form-control-sm" placeholder="Your Question Title" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="mb-2">
+                                        <textarea rows="5" class="form-control form-control-sm" placeholder="Question in detail"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="d-grid mb-2">
+                                        <button type="button" class="btn btn-sm btn-success d-inline-flex align-items-center justify-content-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="me-2 bi bi-question-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247m2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+                                        </svg>
+                                        Post Question
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
